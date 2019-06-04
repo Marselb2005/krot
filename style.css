@@ -1,0 +1,19 @@
+.main{
+	background: orange;
+	display: flex;
+	margin: 100px 100px
+
+}
+.hole{
+	height: 100px;
+	width: 200px;
+	background-image: url(dirt.svg);
+	margin-left: 30px;
+	background-size: 100% 100%;
+	z-index: 4
+}
+.krot{
+	position: absolute;
+	width: 100px;
+	z-index: 2
+}
